@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview{
+  padding: 10px 16px; 
+  margin: 20px 0; 
+  border-bottom: 1px solid #f1356d;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-preview:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-button{
+  background-color: #f1356d;
+  color: white;
+  border: 0px;
+  padding: 5px 7px ;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.blog-button:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.blog-detail h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-detail div{
+  margin: 20px 0;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button, .blog-detail button, .not-found button{
+  background-color: #f1356d;
+  color: white;
+  border: 0px;
+  padding: 5px 7px ;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.create button:hover, .blog-detail button, .not-found button{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);  
+}
